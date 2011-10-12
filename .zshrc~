@@ -89,13 +89,3 @@ bindkey '\e[4~' end-of-line
 ## 256 color
 export TERMCAP='xterm|xterm-color|xterm-256color:Co#256:AB=\E[48;5;%dm:AF=\E[38;5;%dm:tc=xterm-xfree86:'
 
-# colorful man page
-export PAGER="`which less` -s"
-export BROWSER="$PAGER"
-export LESS_TERMCAP_mb=$'\E[38;5;167m'
-export LESS_TERMCAP_md=$'\E[38;5;39m'
-export LESS_TERMCAP_me=$'\E[38;5;231m'
-export LESS_TERMCAP_se=$'\E[38;5;231m'
-export LESS_TERMCAP_so=$'\E[38;5;167m'
-export LESS_TERMCAP_ue=$'\E[38;5;231m'
-export LESS_TERMCAP_us=$'\E[38;5;167m'
